@@ -1,5 +1,5 @@
 # Flex Practice
-![Flex Container](/img/flex.png "Flex Logic")
+![Flex Container](img/flex.png "Flex Logic")
 
 The Flexbox Layout (Flexible Box) aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”).
 
