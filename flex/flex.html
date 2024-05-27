@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Practice</title>
+</head>
+
+<style>
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bigbox {
+    border: 3px solid black;
+    width: 750px;
+    height: 250px;
+}
+
+.flex {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* gap: 1rem; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    background-color: beige;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="flex bigbox">
+            <div class="flex box">1</div>
+            <div class="flex box">2</div>
+            <div class="flex box">3</div>
+            <div class="flex box">6</div>
+            <div class="flex box">7</div>
+            <div class="flex box">8</div>
+        </div>
+    </div>
+</body>
+</html>
+
